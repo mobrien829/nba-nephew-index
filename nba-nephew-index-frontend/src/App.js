@@ -1,6 +1,7 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import { TwitterTimelineEmbed, TwitterTweetEmbed } from "react-twitter-embed";
 
 function App() {
   return (
@@ -19,6 +20,15 @@ function App() {
           Learn React
         </a>
       </header>
+      <div>
+        <p>Blah</p>
+        <TwitterTweetEmbed tweetId={"1147220527326646272"} />
+        <TwitterTimelineEmbed
+          sourceType="profile"
+          screenName="BarstoolBigCat"
+          options={{ height: 400, width: 600 }}
+        />
+      </div>
     </div>
   );
 }
