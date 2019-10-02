@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+#topbar {
+  background-color: orange;
+  height: 6.25em;
+  width: 100%;
+  padding-top: 0em;
+}
+
+#topbar-text {
+  padding-top: 0em;
+  margin-top: 0em;
+  border-top: 0em;
+  font-size: 2.5em;
+}

@@ -6,7 +6,7 @@ import { TwitterTimelineEmbed, TwitterTweetEmbed } from "react-twitter-embed";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -19,9 +19,11 @@ function App() {
         >
           Learn React
         </a>
+      </header> */}
+      <header id="topbar">
+        <p id="topbar-text">NBA Twitter's Best and Worst</p>
       </header>
       <div>
-        <p>Blah</p>
         <TwitterTweetEmbed tweetId={"1147220527326646272"} />
         <TwitterTimelineEmbed
           sourceType="profile"
