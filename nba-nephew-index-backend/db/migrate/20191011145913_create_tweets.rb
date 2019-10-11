@@ -3,7 +3,7 @@ class CreateTweets < ActiveRecord::Migration[5.2]
     create_table :tweets do |t|
       t.string :name
       t.string :tweetid
-      t.reference :userid
+      t.references :userid
       t.timestamps
     end
   end
